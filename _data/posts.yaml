@@ -1,4 +1,69 @@
 ---
+studentTestimonial:
+- sys:
+    id: 2wh8iSsenUNWNIKeLYicED
+    created_at: !ruby/object:DateTime 2019-12-09 17:36:22.324000000 Z
+    updated_at: !ruby/object:DateTime 2019-12-09 17:36:53.050000000 Z
+    content_type_id: studentTestimonial
+    revision: 2
+  name: Anthony Tate
+  quote: "“Ohio University gave me the tools to advance in my sports career.  TeamWork
+    U and the discount on MVP Access gave me the tools to get hired faster.”"
+  image:
+    sys:
+      id: 2nHXQRonQv7RGMQVgp831f
+      created_at: !ruby/object:DateTime 2019-12-09 17:36:15.806000000 Z
+      updated_at: !ruby/object:DateTime 2019-12-09 17:36:15.806000000 Z
+    title: anthony
+    description: 
+    url: "//images.ctfassets.net/utl7jk5xzwje/2nHXQRonQv7RGMQVgp831f/3fbbc323f89abe953b092abd00f50e45/anthony.jpg"
+  desc: Ticket Sales Manager, Chicagoland Speedway
+  cta: Watch Anthony's video about TeamWork U
+  url: https://www.youtube.com/watch?v=6BDBRig67vA
+sectionHeading:
+- sys:
+    id: 3vEEgQnuo3ZxmU4DggbGOg
+    created_at: !ruby/object:DateTime 2019-12-09 17:31:57.380000000 Z
+    updated_at: !ruby/object:DateTime 2019-12-09 17:31:57.380000000 Z
+    content_type_id: sectionHeading
+    revision: 1
+  title: Success Stories
+  desc: Get monthly updates on the job landscape, where opportunities lie, advice
+    from executives, and success stories from students who were able to land a job
+    within their degree by using TeamWork U.
+- sys:
+    id: 5OE1gZihhRJNAWJxn9632v
+    created_at: !ruby/object:DateTime 2019-12-05 18:21:30.447000000 Z
+    updated_at: !ruby/object:DateTime 2019-12-05 18:26:32.321000000 Z
+    content_type_id: sectionHeading
+    revision: 2
+  title: Sport Educators
+  desc: You teach your students to become the best executives for the sports business.  Now,
+    finish that by providing them the best insights on how to get hired.  TeamWork
+    U premium services increases your student’s chance of getting hired 7x more.  Get
+    real connections
+educatorTestimonial:
+- sys:
+    id: 3DdHmlxUndleU85MRfIcUX
+    created_at: !ruby/object:DateTime 2019-12-09 17:22:32.216000000 Z
+    updated_at: !ruby/object:DateTime 2019-12-09 17:23:13.561000000 Z
+    content_type_id: educatorTestimonial
+    revision: 2
+  name: Dr. Lance Hatfield
+  quote: "“Buffy’s Skype call to our sports management students, organized by two
+    of our student ambassadors, was perhaps even more helpful to me, their professor.
+    \ I really got to understand and appreciate all of the benefits of TeamWork U
+    and how TeamWork works with all of the employers.  I wish I had had this call
+    sooner.“"
+  image:
+    sys:
+      id: w1AqqihjMQDlYxYndkhX8
+      created_at: !ruby/object:DateTime 2019-12-09 17:22:25.327000000 Z
+      updated_at: !ruby/object:DateTime 2019-12-09 17:22:25.327000000 Z
+    title: lance
+    description: 
+    url: "//images.ctfassets.net/utl7jk5xzwje/w1AqqihjMQDlYxYndkhX8/56e1f744ca990b5e5dbe42a9e0328462/lance"
+  desc: " Liberty University"
 benefits:
 - sys:
     id: 3cto8fXYJJdvGBeWzqAL74
@@ -25,18 +90,6 @@ benefits:
   ben2: Skype Calls with Buffy FilippellTeamWork’s founder with your students (sometimes
     she’s available on campus)
   ben3: Quarterly report on the number of students engaged and return on investment
-sectionHeading:
-- sys:
-    id: 5OE1gZihhRJNAWJxn9632v
-    created_at: !ruby/object:DateTime 2019-12-05 18:21:30.447000000 Z
-    updated_at: !ruby/object:DateTime 2019-12-05 18:26:32.321000000 Z
-    content_type_id: sectionHeading
-    revision: 2
-  title: Sport Educators
-  desc: You teach your students to become the best executives for the sports business.  Now,
-    finish that by providing them the best insights on how to get hired.  TeamWork
-    U premium services increases your student’s chance of getting hired 7x more.  Get
-    real connections
 teamWorkU:
 - sys:
     id: 4rJ8DSkdVNKqBNvkAn3Zzm
