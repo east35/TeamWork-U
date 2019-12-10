@@ -45,7 +45,7 @@ cta:
 <div class="flex flex-wrap" style="margin-top: -8rem;">
 {% assign benefits = site.data.posts.benefits | sort: 'sort' %}
 {% for item in benefits %}
-<div class="flex-auto col-4 mx2 px3 pt3 card-shadow bg-white">
+<div class="flex-auto md-col-4 col-12 mx2 mb4 px3 pt3 card-shadow bg-white">
 <h3 class="oswald black mb3 center h3">{{ item.title }}</h3>
 <div class="pb3">
 <ul>
@@ -92,7 +92,7 @@ cta:
 
 
 <section class="py4 bg-white">
-<div class="container py4 mx-auto flex flex-wrap">
+<div class="container py4  mx-auto flex flex-wrap">
 
 {% assign item = site.data.posts.schools[0] %}
 
