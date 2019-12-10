@@ -40,18 +40,18 @@ cta:
 </div>
 </section>
 
-<section class="bg-gray">
+<section class="bg-gray benefits">
 <div class="container mx-auto py4" style="margin-top: 8rem;">
 <div class="flex flex-wrap" style="margin-top: -8rem;">
 {% assign benefits = site.data.posts.benefits | sort: 'sort' %}
 {% for item in benefits %}
 <div class="flex-auto col-4 mx2 px3 pt3 card-shadow bg-white">
-<h2 class="oswald black mb3 center">{{ item.title }}</h2>
+<h3 class="oswald black mb3 center h3">{{ item.title }}</h3>
 <div class="pb3">
 <ul>
-<li><h3 class="line-height-5 regular black checkmark">{{ item.ben1 }}</h3></li>
-<li><h3 class="line-height-5 regular black checkmark">{{ item.ben2 }}</h3></li>
-<li><h3 class="line-height-5 regular black checkmark">{{ item.ben3 }}</h3></li>
+<li><p class="line-height-6 py1 regular black checkmark">{{ item.ben1 }}</p></li>
+<li><p class="line-height-6 py1 regular black checkmark">{{ item.ben2 }}</p></li>
+<li><p class="line-height-6 py1 regular black checkmark">{{ item.ben3 }}</p></li>
 </ul>
 </div>
 </div>
@@ -61,32 +61,55 @@ cta:
 </div>
 </section>
 
+
 <section class="py4">
 <div class="container mx-auto flex flex-wrap">
-<h2 class="oswald black mb3 center">Calculator</h2>
+
+
+{% assign item = site.data.posts.calculator[0] %}
+
+<div class="md-col-5 px4 my4 black flex items-center wow fadeInUp" data-wow-delay="0.2s">
+<div class="flex-auto">
+<h3 class="oswald h3">{{ item.title }}</h3>
+<p class="p">{{ item.desc }}</p>
+</div>
+</div>
+
+<div class="px2 col-12 md-col-7 mx-auto">
+<div class="flex flex-wrap my3">
+
+<form class="sm-col-6">
+  <label>Students</label>
+  <input type="text" class="block col-12 mb1 field regular" placeholder="Enter no. of students">
+  <h3 class="h3 black">{{ item.savings_title }}</h3>
+</form>
+
+</div>
+</div>
+
 </div>
 </section>
 
-<section class="py4">
-<div class="container mx-auto flex flex-wrap">
+
+<section class="py4 bg-white">
+<div class="container py4 mx-auto flex flex-wrap">
 
 {% assign item = site.data.posts.schools[0] %}
 
-<div class="md-col-6 px4 my4 black flex items-center wow fadeInUp" data-wow-delay="0.2s">
+<div class="md-col-8 col-12 mx-auto black mb2 flex items-center center wow fadeInUp" data-wow-delay="0.2s">
 <div class="flex-auto">
-<h3 class="oswald h3">{{ item.title }}</h3>
+<h2 class="oswald h2">{{ item.title }}</h2>
 {% include cta.html inverted=true %}
 </div>
 </div>
 
-<div class="px2 col-12 md-col-8 mx-auto">
 <div class="flex flex-wrap my3">
   {% for item in item.image %}
   <div class="col-6 md-col-3 center px2 mt2">
     <img class="inline-block mb1" src="{{ item.url }}" alt="{{ item.title }}" width="100" />
   </div>
   {% endfor %}
-</div>
+
 </div>
 
 </div>
@@ -106,10 +129,10 @@ cta:
 </div>
 
 <div class="md-col-5 wow fadeInUp card-shadow my4" data-wow-delay="0.3s">
-<div class="bg-black col-12 px2 py3 flex-none" style="background-color: #002244;">
+<div class="bg-black col-12 px2 py3 flex-none" style="background-color: #CE1141;">
 <h3 class="oswald line-height-4 ltr-spacing-2 h4 m0 pb2 regular white">{{ item.quote }}<i class="icofont-dart icofont-1x"></i></h3>
 
-<a href="{{ item.url }}" target="new" class="oswald white" style="text-decoration: none;"><img src="/images/youtube-play.svg" width="24px;" class="mr1 pt1">{{ item.cta }}</a>
+<a href="{{ item.url }}" target="new" class="oswald white text-decoration-none">〉{{ item.cta }}</a>
 </div>
 
 <div class="col-12 bg-white px2 py3 flex-auto">

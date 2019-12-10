@@ -23,5 +23,14 @@ headroom{will-change:transform background;transition:transform 200ms linear, bac
 .split-background{background: linear-gradient(90deg, #AAABAA 50%, #AAABAA 50%, #3A4044 50%);}
 .letter-spacing-2{letter-spacing: .2rem;}
 
+.benefits ul {padding: 0; list-style-type: none; }
+.benefits ul li {
+padding-left: 3rem;
+background-image: url(/images/check.svg);
+background-position: 0px 4px;
+background-size: 2rem;
+background-repeat: no-repeat;
+ }
 
+.line-height-6 {line-height: 1.75rem;}
 @media (max-width: 52em){.split-background {background: #AAABAA;}}

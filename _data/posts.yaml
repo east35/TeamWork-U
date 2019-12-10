@@ -1,4 +1,16 @@
 ---
+calculator:
+- sys:
+    id: 3qzWPqAai3OAW927UxnNzd
+    created_at: !ruby/object:DateTime 2019-12-10 17:34:29.746000000 Z
+    updated_at: !ruby/object:DateTime 2019-12-10 17:34:29.746000000 Z
+    content_type_id: calculator
+    revision: 1
+  title: See how much you would save on TeamWork’s premium services
+  desc: Just include your number of students and we'll show you the math behind your
+    potential savings.
+  savings_title: Premium Savings
+  help: 100 students x $89.99 (MVP price per student) - $1200 licensing fee
 schools:
 - sys:
     id: 12UdbRW4SZpB6thN0SicBk
