@@ -1,11 +1,135 @@
 ---
+schools:
+- sys:
+    id: 12UdbRW4SZpB6thN0SicBk
+    created_at: !ruby/object:DateTime 2019-12-09 19:50:55.519000000 Z
+    updated_at: !ruby/object:DateTime 2019-12-09 19:50:55.519000000 Z
+    content_type_id: schools
+    revision: 1
+  title: Over 40 schools are providing TeamWork U benefits to their students
+  image:
+  - sys:
+      id: 1u21rRtyxUCv3U9ap05baw
+      created_at: !ruby/object:DateTime 2019-11-27 17:08:24.382000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-27 17:08:24.382000000 Z
+    title: pga
+    description: 
+    url: "//images.ctfassets.net/utl7jk5xzwje/1u21rRtyxUCv3U9ap05baw/29256b71060bd0a1ce290081202625de/pga.png"
+  - sys:
+      id: 1P4lQ9CidM2ml1GVjwmy6D
+      created_at: !ruby/object:DateTime 2019-11-27 17:08:24.350000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-27 17:08:24.350000000 Z
+    title: giants
+    description: 
+    url: "//images.ctfassets.net/utl7jk5xzwje/1P4lQ9CidM2ml1GVjwmy6D/200f0d91f2b4ef5259c1867bf94e38af/giants.png"
+  - sys:
+      id: 46iuEWrsdQNmEEHVw39N5U
+      created_at: !ruby/object:DateTime 2019-11-27 17:08:24.173000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-27 17:08:24.173000000 Z
+    title: rockets
+    description: 
+    url: "//images.ctfassets.net/utl7jk5xzwje/46iuEWrsdQNmEEHVw39N5U/74cb9cf79b763ee01aa0d84f4915c382/rockets.png"
+  - sys:
+      id: 2GoEeMc4aldbTuzHRoXmnD
+      created_at: !ruby/object:DateTime 2019-11-27 17:08:24.165000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-27 17:08:24.165000000 Z
+    title: texans
+    description: 
+    url: "//images.ctfassets.net/utl7jk5xzwje/2GoEeMc4aldbTuzHRoXmnD/7cccd82c738e988c6d1fe447de0acd85/texans.png"
+  - sys:
+      id: 531Tolhzw1wBGkb7UbIpGf
+      created_at: !ruby/object:DateTime 2019-11-27 17:08:24.143000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-27 17:08:24.143000000 Z
+    title: cavs
+    description: 
+    url: "//images.ctfassets.net/utl7jk5xzwje/531Tolhzw1wBGkb7UbIpGf/8b9ea268e1a1163c03d9950e6dd9ecf7/cavs.png"
+  - sys:
+      id: 40vBhetbQPNBD2Pqq62pGE
+      created_at: !ruby/object:DateTime 2019-11-27 17:08:24.149000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-27 17:08:24.149000000 Z
+    title: wta
+    description: 
+    url: "//images.ctfassets.net/utl7jk5xzwje/40vBhetbQPNBD2Pqq62pGE/56727926c3f8c6b25d931a72462b7d5c/wta.png"
+  - sys:
+      id: 1kqZVIiZD1X0szwjAuIKoL
+      created_at: !ruby/object:DateTime 2019-11-27 17:08:24.150000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-27 17:08:24.150000000 Z
+    title: calgary
+    description: 
+    url: "//images.ctfassets.net/utl7jk5xzwje/1kqZVIiZD1X0szwjAuIKoL/fcf03ecd68c94c3dce4acfc95cb5ca90/calgary.png"
+  - sys:
+      id: 15CG118iB0WjDc5YYKZIir
+      created_at: !ruby/object:DateTime 2019-11-27 17:08:24.162000000 Z
+      updated_at: !ruby/object:DateTime 2019-11-27 17:08:24.162000000 Z
+    title: sia
+    description: 
+    url: "//images.ctfassets.net/utl7jk5xzwje/15CG118iB0WjDc5YYKZIir/10430bcd50f5cb6b86ea6242ce379add/sia.png"
+  - sys:
+      id: 4ToXjKFzQJsO7AFelb9I8
+      created_at: !ruby/object:DateTime 2019-12-09 19:50:11.723000000 Z
+      updated_at: !ruby/object:DateTime 2019-12-09 19:50:11.723000000 Z
+    title: UMass Amherst Athletics logo
+    description: 
+    url: "//images.ctfassets.net/utl7jk5xzwje/4ToXjKFzQJsO7AFelb9I8/95b321d89846f4ccf197a604334add3c/1200px-UMass_Amherst_Athletics_logo.png"
+  - sys:
+      id: 8iRnFfmxPAEPOLumJ7Oza
+      created_at: !ruby/object:DateTime 2019-12-09 19:50:21.790000000 Z
+      updated_at: !ruby/object:DateTime 2019-12-09 19:50:21.790000000 Z
+    title: heritage-logo-syracuse-university-orange
+    description: 
+    url: "//images.ctfassets.net/utl7jk5xzwje/8iRnFfmxPAEPOLumJ7Oza/b4ff9ab8352a070682827741839fac6f/heritage-logo-syracuse-university-orange.png"
+  - sys:
+      id: 4zjukuCMy5mnsSG7BgkvPB
+      created_at: !ruby/object:DateTime 2019-12-09 19:50:31.258000000 Z
+      updated_at: !ruby/object:DateTime 2019-12-09 19:50:31.258000000 Z
+    title: indiana-hoosiers-logo-png-transparent
+    description: 
+    url: "//images.ctfassets.net/utl7jk5xzwje/4zjukuCMy5mnsSG7BgkvPB/32b2056b63f7b868f3cb745bafd768cd/indiana-hoosiers-logo-png-transparent.png"
+  - sys:
+      id: 2Z7xq9wTdFtLsTa7WH2pAz
+      created_at: !ruby/object:DateTime 2019-12-09 19:50:51.764000000 Z
+      updated_at: !ruby/object:DateTime 2019-12-09 19:50:51.764000000 Z
+    title: liberty-patriots-footer-logo
+    description: 
+    url: "//images.ctfassets.net/utl7jk5xzwje/2Z7xq9wTdFtLsTa7WH2pAz/5c26a2564de2f955bd8509278046c4c9/liberty-patriots-footer-logo.png"
+educatorTestimonial:
+- sys:
+    id: 3DdHmlxUndleU85MRfIcUX
+    created_at: !ruby/object:DateTime 2019-12-09 17:22:32.216000000 Z
+    updated_at: !ruby/object:DateTime 2019-12-09 19:14:56.572000000 Z
+    content_type_id: educatorTestimonial
+    revision: 3
+  title: Sport Educators
+  sub_title: You teach your students to become the best executives for the sports
+    business.  Now, finish that by providing them the best insights on how to get
+    hired.  TeamWork U premium services increases your student’s chance of getting
+    hired 7x more.  Get real connections.
+  name: Dr. Lance Hatfield
+  quote: "“Buffy’s Skype call to our sports management students, organized by two
+    of our student ambassadors, was perhaps even more helpful to me, their professor.
+    \ I really got to understand and appreciate all of the benefits of TeamWork U
+    and how TeamWork works with all of the employers.  I wish I had had this call
+    sooner.“"
+  image:
+    sys:
+      id: w1AqqihjMQDlYxYndkhX8
+      created_at: !ruby/object:DateTime 2019-12-09 17:22:25.327000000 Z
+      updated_at: !ruby/object:DateTime 2019-12-09 17:22:25.327000000 Z
+    title: lance
+    description: 
+    url: "//images.ctfassets.net/utl7jk5xzwje/w1AqqihjMQDlYxYndkhX8/56e1f744ca990b5e5dbe42a9e0328462/lance"
+  desc: " Liberty University"
 studentTestimonial:
 - sys:
     id: 2wh8iSsenUNWNIKeLYicED
     created_at: !ruby/object:DateTime 2019-12-09 17:36:22.324000000 Z
-    updated_at: !ruby/object:DateTime 2019-12-09 17:36:53.050000000 Z
+    updated_at: !ruby/object:DateTime 2019-12-09 19:18:30.483000000 Z
     content_type_id: studentTestimonial
-    revision: 2
+    revision: 3
+  title: Success Stories
+  sub_title: Get monthly updates on the job landscape, where opportunities lie, advice
+    from executives, and success stories from students who were able to land a job
+    within their degree by using TeamWork U.
   name: Anthony Tate
   quote: "“Ohio University gave me the tools to advance in my sports career.  TeamWork
     U and the discount on MVP Access gave me the tools to get hired faster.”"
@@ -42,28 +166,6 @@ sectionHeading:
     finish that by providing them the best insights on how to get hired.  TeamWork
     U premium services increases your student’s chance of getting hired 7x more.  Get
     real connections
-educatorTestimonial:
-- sys:
-    id: 3DdHmlxUndleU85MRfIcUX
-    created_at: !ruby/object:DateTime 2019-12-09 17:22:32.216000000 Z
-    updated_at: !ruby/object:DateTime 2019-12-09 17:23:13.561000000 Z
-    content_type_id: educatorTestimonial
-    revision: 2
-  name: Dr. Lance Hatfield
-  quote: "“Buffy’s Skype call to our sports management students, organized by two
-    of our student ambassadors, was perhaps even more helpful to me, their professor.
-    \ I really got to understand and appreciate all of the benefits of TeamWork U
-    and how TeamWork works with all of the employers.  I wish I had had this call
-    sooner.“"
-  image:
-    sys:
-      id: w1AqqihjMQDlYxYndkhX8
-      created_at: !ruby/object:DateTime 2019-12-09 17:22:25.327000000 Z
-      updated_at: !ruby/object:DateTime 2019-12-09 17:22:25.327000000 Z
-    title: lance
-    description: 
-    url: "//images.ctfassets.net/utl7jk5xzwje/w1AqqihjMQDlYxYndkhX8/56e1f744ca990b5e5dbe42a9e0328462/lance"
-  desc: " Liberty University"
 benefits:
 - sys:
     id: 3cto8fXYJJdvGBeWzqAL74
