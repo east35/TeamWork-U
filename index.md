@@ -68,20 +68,22 @@ cta:
 
 {% assign item = site.data.posts.calculator[0] %}
 
-<div class="md-col-5 px4 my4 black flex items-center wow fadeInUp" data-wow-delay="0.2s">
+<div class="md-col-6 px4 my4 black flex items-center wow fadeInUp" data-wow-delay="0.2s">
 <div class="flex-auto">
 <h3 class="oswald h3">{{ item.title }}</h3>
 <p class="p">{{ item.desc }}</p>
 </div>
 </div>
 
-<div class="px2 col-12 md-col-7 mx-auto">
-<div class="flex flex-wrap my3">
+<div class="px2 col-12 md-col-6 mx-auto flex">
+<div class="flex items-center card-shadow bg-white">
 
-<form class="sm-col-6">
-  <label>Students</label>
-  <input type="text" class="block col-12 mb1 field regular" placeholder="Enter no. of students">
-  <h3 class="h3 black">{{ item.savings_title }}</h3>
+<form class="px4">
+  <label class="p black bold my0">Students</label>
+  <input type="text" class="block col-12 mt1 mb3 field regular" placeholder="Enter no. of students">
+  <p class="p black bold my0 tooltip">{{ item.savings_title }}<span class="tooltiptext ml1">{{ item.help }}</span></p>
+  <h2 class="h2 green7 my0">$7,000</h2>
+
 </form>
 
 </div>
