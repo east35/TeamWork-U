@@ -80,11 +80,34 @@ cta:
 
 <form class="px4">
   <label class="p black bold my0">Students</label>
-  <input type="text" class="block col-12 mt1 mb3 field regular" placeholder="Enter no. of students">
+  <input type="number" class="js-savings-input block col-12 mt1 mb3 field regular" placeholder="Enter no. of students" value="1000" step="100" onchange="savingsUpdate()">
   <p class="p black bold my0 tooltip">{{ item.savings_title }}<span class="tooltiptext ml1">{{ item.help }}</span></p>
-  <h2 class="h2 green7 my0">$7,000</h2>
-
+  <h2 class="h2 green7 my0">$<span class="js-savings-value">28,800</span></h2>
 </form>
+<script>
+// Ability to stringify and add commas
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+// Update the .js-savings-value based on .js-savings-input
+function savingsUpdate() {
+var savingsInput = document.querySelector(".js-savings-input").value;
+// Formula for calculating the savings
+var savingsValue = numberWithCommas((savingsInput * 30) - 1200);
+document.querySelector(".js-savings-value").textContent = savingsValue;
+}
+
+// Run savingsUpdate on load to ensure a correct number
+var ready = (callback) => {
+if (document.readyState != "loading") callback();
+else document.addEventListener("DOMContentLoaded", callback);
+}
+
+ready(() => {
+savingsUpdate();
+});
+</script>
 
 </div>
 </div>
